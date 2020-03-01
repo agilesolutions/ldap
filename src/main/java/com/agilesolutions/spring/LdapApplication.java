@@ -1,4 +1,4 @@
-package com.agilesolutions.spring.ldap;
+package com.agilesolutions.spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
