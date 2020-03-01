@@ -11,7 +11,7 @@ import org.springframework.data.ldap.repository.config.EnableLdapRepositories;
 import org.springframework.ldap.core.LdapTemplate;
 import org.springframework.ldap.core.support.LdapContextSource;
 
-import com.agilesolutions.spring.LdapClient;
+import com.agilesolutions.spring.client.LdapClient;
 
 @Configuration
 @PropertySource("classpath:application.properties")

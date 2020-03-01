@@ -1,4 +1,4 @@
-package com.agilesolutions.spring;
+package com.agilesolutions.spring.client;
 
 
 import org.springframework.beans.factory.annotation.Autowired;

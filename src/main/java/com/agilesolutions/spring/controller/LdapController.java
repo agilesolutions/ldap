@@ -1,4 +1,4 @@
-package com.agilesolutions.spring.ldap.controller;
+package com.agilesolutions.spring.controller;
 
 
 import org.slf4j.Logger;
