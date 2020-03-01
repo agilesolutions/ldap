@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 
@@ -26,6 +27,7 @@ public class LdapController {
 	 *
 	 * @return default response (status code 200)
 	 */
+	@RequestMapping(value = "/version", produces = { "*/*" }, method = RequestMethod.GET)
 	public ResponseEntity<String> showVersion() {
 
 		logger.info("Running version {} of Demo application");
